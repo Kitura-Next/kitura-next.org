@@ -1,5 +1,5 @@
 ---
-title: Welcome to Kitura
+title: Welcome to Kitura-Next
 ---
 
 Kitura is an open source web framework for server-side Swift.
