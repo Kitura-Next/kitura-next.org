@@ -8,7 +8,7 @@ We welcome all improvements to this website.  Please see our [Contributing guide
 ## Local setup
 If you want to preview this website locally, follow these steps:
 
-1. Clone the `kitura.io` project onto your machine:
+1. Clone the `kitura-next.org` project onto your machine:
 `git clone https://github.com/Kitura-Next/kitura-next.org.git`
 2. Enter the website directory:
 `cd kitura-next.org/website`
