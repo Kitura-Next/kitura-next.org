@@ -1,19 +1,19 @@
-# Contributing to www.kitura.io
+# Contributing to www.kituranext.org
 
 Content on this site is licensed under the Apache Licence, Version 2.0.
 
 ## All Changes
 
 ### Create development environment
-1. Clone the kitura.io repo onto your machine:
-	`git clone https://github.com/IBM-Swift/kitura.io`
+1. Clone the kitura-next.org repo onto your machine:
+	`git clone https://github.com/Kitura-Next/kitura-next.org`
 2. Create a new branch for your development:
 	`git checkout -b <branch>`
 3. Once changes have been made, open a PR against master and link to the corresponding issue, if applicable.
 
 ## Changing an existing guide
 
-Kitura.io is written in Markdown.
+Kitura-Next.org is written in Markdown.
 
 When editing existing topics you should adhere to the following guidelines, doing so will provide styling for you.
 
