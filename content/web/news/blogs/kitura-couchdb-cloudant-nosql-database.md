@@ -205,6 +205,6 @@ Even using the most basic model we have saved ourselves twelve lines of code. As
 
 If you would like to run this example, or learn more about Kitura-CouchDB, [check it out on GitHub](https://github.com/Kitura-Next/Kitura-CouchDB).
 
-If you would like to learn about more features of Kitura-CouchDB such as bulk requests, design documents and attachments, [visit our API reference](https://ibm-swift.github.io/Kitura-CouchDB/index.html).
+If you would like to learn about more features of Kitura-CouchDB such as bulk requests, design documents and attachments, [visit our API reference](https://kitura-next.github.io/Kitura-CouchDB/index.html).
 
 Any questions or comments? Please join the Kitura community on [Slack](http://swift-at-ibm-slack.mybluemix.net/?cm_sp=dw-bluemix-_-swift-_-devcenter&_ga=2.150897590.186671014.1570626561-1743126121.1570022962&cm_mc_uid=83263075142115698398229&cm_mc_sid_50200000=53695431570707266328)!

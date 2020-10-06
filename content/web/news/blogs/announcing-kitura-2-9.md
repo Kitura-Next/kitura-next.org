@@ -34,7 +34,7 @@ See the [`ServerOptions`](http://ibm-swift.github.io/Kitura-net/Structs/ServerOp
 
 SwiftyRequest provides a high-level HTTP client for making requests from your Swift application. This release represents a major re-working of the library to use swift-nio, via the async-http-client project currently under development by the Swift Server Working Group.
 
-An advantage of adopting swift-nio is that SwiftyRequest can now support client certificates (2-way SSL). To learn more about this feature, check out the [SwiftyRequest README](https://github.com/Kitura-Next/SwiftyRequest/) and the documentation for [`ClientCertificate`](https://ibm-swift.github.io/SwiftyRequest/Structs/ClientCertificate.html).
+An advantage of adopting swift-nio is that SwiftyRequest can now support client certificates (2-way SSL). To learn more about this feature, check out the [SwiftyRequest README](https://github.com/Kitura-Next/SwiftyRequest/) and the documentation for [`ClientCertificate`](https://kitura-next.github.io/SwiftyRequest/Structs/ClientCertificate.html).
 
 Although there are a number of API changes in this release, much of the previous SwiftyRequest API has been preserved, to reduce the work required to migrate.
 
