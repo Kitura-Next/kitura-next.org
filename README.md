@@ -1,5 +1,5 @@
-# kitura.io
-This is the GitHub repository for [http://www.kitura.io](http://www.kitura.io), which is hosted as a GitHub pages website.
+# kitura-next.org
+This is the GitHub repository for [http://www.kituranext.org](http://www.kituranext.org), which is hosted as a GitHub pages website.
 
 ## Contributing
 We welcome all improvements to this website.  Please see our [Contributing guidelines](CONTRIBUTING.md).
@@ -9,9 +9,9 @@ We welcome all improvements to this website.  Please see our [Contributing guide
 If you want to preview this website locally, follow these steps:
 
 1. Clone the `kitura.io` project onto your machine:
-`git clone https://github.com/IBM-Swift/kitura.io.git`
+`git clone https://github.com/Kitura-Next/kitura-next.org.git`
 2. Enter the website directory:
-`cd kitura.io/website`
+`cd kitura-next.org/website`
 3. Run the `npm install` command:
 `npm install`
 4. Run the `npm install -g gatsby-cli` comand:
