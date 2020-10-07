@@ -23,7 +23,7 @@
     "react-helmet": "^5.2.1"
   },
   "scripts": {
-    "test": "gatsby build --prefix-paths && echo 'TODO: add tests'",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "test": "gatsby build && linkinator ./public --silent",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://${GH_PAGES}@github.com/Kitura-Next/kitura-next.org.git"
   }
 }
