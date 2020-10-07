@@ -1,0 +1,28 @@
+# This is a basic workflow to build and test a Gatsby site
+
+name: Gatsby_Test
+
+on:
+  pull_request:
+    branches: [ master ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v2
+
+      - name: build and test
+        run: |
+          echo "Starting Build!"
+          sudo apt-get update
+          sudo npm install -g gatsby-cli gh-pages linkinator
+          cd website
+          yarn install
+          yarn test
+          echo "Tested Site Links"
+          echo "Looking Good!"
