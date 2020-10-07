@@ -1,0 +1,33 @@
+# This is a basic workflow build and deploy a Gatsby site with gh-pages
+
+name: Gatsby_Deploy
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v2
+
+      - name: build and deploy
+        env:
+          GH_PAGES: ${{ secrets.GH_PAGES }}
+          USER_NAME: ${{ secrets.USER_NAME }}
+          USER_EMAIL: ${{ secrets.USER_EMAIL }}
+        run: |
+          echo Starting Build!
+          git config --global user.name "${USER_NAME}"
+          git config --global user.email "${USER_EMAIL}"
+          sudo apt-get update
+          sudo npm install -g gatsby-cli gh-pages
+          cd website
+          yarn install
+          yarn deploy
+          echo Looking Good!
