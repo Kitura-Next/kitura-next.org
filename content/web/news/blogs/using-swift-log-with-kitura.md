@@ -10,7 +10,7 @@ path: /blogs/using-swift-log-with-kitura
 
 With the release of Kitura’s [LoggerAPI 1.9](https://github.com/Kitura-Next/LoggerAPI/releases/tag/1.9.0), you can now easily direct your log messages to a swift-log logging backend.
 
-In addition, the upcoming Kitura 2.8 release will allow you to [configure Kitura to log via swift-log](https://github.com/Kitura-Next/Kitura/pull/1460) with a single line of code:
+In addition, the upcoming Kitura 2.8 release will allow you to [configure Kitura to log via swift-log](https://github.com/Kitura/Kitura/pull/1460) with a single line of code:
 
 ```swift
 Kitura.logTo(mySwiftLogger)

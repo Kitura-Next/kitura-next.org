@@ -91,7 +91,7 @@ To produce either `true` or `false` depending on whether the signature is valid 
 
 The other use of asymmetric keys is in encryption and decryption. In this case you provide the private key to the person who you want to communicate securely with and they use it to encrypt the plaintext. The message can only be decrypted using the private key.
 
-Since asymmetric encryption can only be used on a small plaintext, BlueECC uses Elliptic Curve Integrated Encryption Scheme (ECIES). This consists of encrypting the message using [AES-GCM](https://en.wikipedia.org/wiki/Galois/Counter_Mode) with a symmetric key, followed by encrypting that symmetric key using Elliptic-curve Diffie–Hellman ([ECDH](https://en.wikipedia.org/wiki/Elliptic-curve_Diffie–Hellman)). The encrypted symmetric key and encrypted message are both sent in an envelope. The receiver of the envelope then decrypts the symmetric key and uses that to decrypt the original message.
+Since asymmetric encryption can only be used on a small plaintext, BlueECC uses Elliptic Curve Integrated Encryption Scheme (ECIES). This consists of encrypting the message using [AES-GCM](https://en.wikipedia.org/wiki/Galois/Counter_Mode) with a symmetric key, followed by encrypting that symmetric key using Elliptic-curve Diffie–Hellman ([ECDH](https://wiki.openssl.org/index.php/Elliptic_Curve_Diffie_Hellman)). The encrypted symmetric key and encrypted message are both sent in an envelope. The receiver of the envelope then decrypts the symmetric key and uses that to decrypt the original message.
 
 BlueECC handles this process for you, so encryption becomes:
 

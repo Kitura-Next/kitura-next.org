@@ -18,17 +18,17 @@ Kitura 2.6 includes several functional enhancements, plus improvements to the pe
 
 Kitura 2.6 contains the following enhancements:
 
-- Consistent handling of parameters for Codable routes [#1310](https://github.com/Kitura-Next/Kitura/pull/1310)
-- Initialize TypesafeMiddleware first [#1350](https://github.com/Kitura-Next/Kitura/pull/1350)
-- Allow Kitura welcome page to be disabled [#1344](https://github.com/Kitura-Next/Kitura/pull/1344)
-- Performance improvement when sending Strings [#1369](https://github.com/Kitura-Next/Kitura/pull/1369)
-- Conditional GET using etags [#1333](https://github.com/Kitura-Next/Kitura/pull/1333)
+- Consistent handling of parameters for Codable routes [#1310](https://github.com/Kitura/Kitura/pull/1310)
+- Initialize TypesafeMiddleware first [#1350](https://github.com/Kitura/Kitura/pull/1350)
+- Allow Kitura welcome page to be disabled [#1344](https://github.com/Kitura/Kitura/pull/1344)
+- Performance improvement when sending Strings [#1369](https://github.com/Kitura/Kitura/pull/1369)
+- Conditional GET using etags [#1333](https://github.com/Kitura/Kitura/pull/1333)
 
 Thank you to everyone in the community who contributed to this release.
 
 ###KituraNIO
 
-A couple of obvious bottlenecks have been resolved – PR [#112](https://github.com/Kitura-Next/Kitura-NIO/pull/112) and PR [#113](https://github.com/Kitura-Next/Kitura-NIO/pull/113). These led to performance improvements of up to 30% on some benchmarks. A few more obvious bottlenecks do still exist and their solutions are in progress (e.g PR [#117](https://github.com/Kitura-Next/Kitura-NIO/pull/117)). KituraNIO now performs better than KituraNet on the `plaintext` benchmark. Longstanding stress tests were also run to make sure Kitura-NIO is stable over time. We feel that Kitura-NIO is ready for real-world usage and encourage users to try it out.
+A couple of obvious bottlenecks have been resolved – PR [#112](https://github.com/Kitura/Kitura-NIO/pull/112) and PR [#113](https://github.com/Kitura/Kitura-NIO/pull/113). These led to performance improvements of up to 30% on some benchmarks. A few more obvious bottlenecks do still exist and their solutions are in progress (e.g PR [#117](https://github.com/Kitura/Kitura-NIO/pull/117)). KituraNIO now performs better than KituraNet on the `plaintext` benchmark. Longstanding stress tests were also run to make sure Kitura-NIO is stable over time. We feel that Kitura-NIO is ready for real-world usage and encourage users to try it out.
 
 ---
 
