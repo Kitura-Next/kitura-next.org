@@ -22,3 +22,4 @@ jobs:
           config-file: 'mdlc_config.json'
           folder-path: 'content/'
           max-depth: -1
+          check-modified-files-only: 'yes'
