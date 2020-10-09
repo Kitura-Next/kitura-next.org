@@ -15,10 +15,10 @@ jobs:
     steps:
 
       - uses: actions/checkout@v2
-
-      - name: Test links in content
-        run: |
-          echo "Testing Links!"
-          sudo npm install -g markdown-link-check
-          find content/ -name \*.md -exec markdown-link-check -q -c mdlc_config.json {} \;
-          echo "Looking Good!"
+      - uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: 'yes'
+          use-verbose-mode: 'yes'
+          config-file: 'mdlc_config.json'
+          folder-path: 'content/'
+          max-depth: -1
