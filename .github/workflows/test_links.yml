@@ -20,6 +20,5 @@ jobs:
         run: |
           echo "Testing Links!"
           sudo npm install -g markdown-link-check
-          cd website
           find content/ -name \*.md -exec markdown-link-check -q -c mdlc_config.json {} \;
           echo "Looking Good!"
