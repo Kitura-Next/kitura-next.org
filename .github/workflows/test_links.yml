@@ -20,5 +20,6 @@ jobs:
         run: |
           echo "Testing Links!"
           sudo npm install -g markdown-link-check
+          cd website
           yarn test-links
           echo "Looking Good!"
