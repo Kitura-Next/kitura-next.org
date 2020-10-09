@@ -12,7 +12,7 @@ We're pleased to announce the latest release of Kitura, as well as a new major v
 
 You can check out the [release notes for Kitura 2.9](https://github.com/Kitura-Next/Kitura/releases/tag/2.9.0) on GitHub. Features of this release are:
 
-### Allow customization of the SwaggerDocument ([#1483](https://github.com/Kitura-Next/Kitura/pull/1483))
+### Allow customization of the SwaggerDocument ([#1483](https://github.com/Kitura/Kitura/pull/1483))
 
 The OpenAPI document's title, description and version properties can now be specified:
 ```swift
@@ -20,7 +20,7 @@ let customDocument = SwaggerDocument(title: "My Service", description: "A descri
 let router = Router(apiDocument: customDocument)
 ```
 
-### Ability to limit request size and connection count ([#1481](https://github.com/Kitura-Next/Kitura/pull/1481))
+### Ability to limit request size and connection count ([#1481](https://github.com/Kitura/Kitura/pull/1481))
 
 A Kitura server can now be configured to limit the number of concurrent connections it will accept, and to reject requests whose request body exceeds a certain size.  By default, 10,000 connections are permitted and a request body size of 100mb.  These values can be adjusted upon registering a server:
 ```swift

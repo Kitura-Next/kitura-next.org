@@ -11,7 +11,7 @@ Kitura-NIO has been designed to be API-compatible with the current Kitura-net AP
 
 The major reason behind the decision to keep the API compatible with Kitura-net was API stability. We wanted Kitura users to be able to use Kitura-NIO, without needing to make any code changes to their Kitura applications.
 
-Kitura-NIO fully supports HTTP and HTTPS, both servers and clients. It also has IPv6 support. A SwiftNIO based implementation of Kitura-WebSocket ([Kitura-WebSocket-NIO](https://github.com/Kitura-Next/Kitura-WebSocket-NIO)) was released in April 2019, as part of [Kitura 2.7](https://developer.ibm.com/swift/2019/04/17/announcing-kitura-2-7-and-more/).
+Kitura-NIO fully supports HTTP and HTTPS, both servers and clients. It also has IPv6 support. A SwiftNIO based implementation of Kitura-WebSocket ([Kitura-WebSocket-NIO](https://github.com/Kitura-Next/Kitura-WebSocket-NIO)) was released in April 2019, as part of [Kitura 2.7](https://kituranext.org/blogs/announcing-kitura-2-7-and-more/).
 
 It is our intent to make Kitura-NIO the default networking stack in a future release of Kitura.
 
