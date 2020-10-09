@@ -1,0 +1,24 @@
+# This is a basic workflow to test external links in .md files in the content directory
+
+name: Gatsby_Test_Links
+
+on:
+  pull_request:
+    branches: [ master ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v2
+
+      - name: Test links in content
+        run: |
+          echo "Testing Links!"
+          sudo npm install -g markdown-link-check
+          yarn test-links
+          echo "Looking Good!"
