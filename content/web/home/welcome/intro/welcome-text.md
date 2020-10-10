@@ -8,4 +8,4 @@ Use your Swift skills to build web applications and REST APIs, with full support
 
 It's easy to get started thanks to intuitive APIs, comprehensive documentation, and self-paced tutorials.
 
-Adding some text and a [broken link](https://thiswillnotwork.broke)
+Adding some text and a [fixed link](https://google.com)
