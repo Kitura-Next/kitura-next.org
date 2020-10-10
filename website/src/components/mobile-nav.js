@@ -16,7 +16,7 @@ const MobileNav = () => {
 
       <a className={styles.navLink} href="https://github.com/Kitura-Next/Kitura" target="_blank" rel="noopener noreferrer">GitHub</a>
 
-      <a className={styles.navLink} href="http://slack.kitura.io">Slack</a>
+      <a className={styles.navLink} href="http://swift-at-ibm-slack.mybluemix.net">Slack</a>
 
       {/* <Link className={styles.navLink} to="/community">Community</Link> */}
     </nav>
