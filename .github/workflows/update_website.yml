@@ -1,26 +1,21 @@
 # This is a basic workflow build and deploy a Gatsby site with gh-pages
 
 name: Gatsby_Deploy
-
+env:
+  GH_PAGES: ${{ secrets.GH_PAGES }}
+  USER_NAME: ${{ secrets.USER_NAME }}
+  USER_EMAIL: ${{ secrets.USER_EMAIL }}
 on:
   push:
-    branches: [ master ]
+    branches: [ master ] # To update website - add 'ci update website' to the merge commit message.
 
 jobs:
-
-  build:
-
+  update-website:
+    if: "contains(github.event.head_commit.message, 'ci update website')"
     runs-on: ubuntu-latest
-
     steps:
-
       - uses: actions/checkout@v2
-
-      - name: build and deploy
-        env:
-          GH_PAGES: ${{ secrets.GH_PAGES }}
-          USER_NAME: ${{ secrets.USER_NAME }}
-          USER_EMAIL: ${{ secrets.USER_EMAIL }}
+      - name: build and deploy        
         run: |
           echo Starting Build!
           git config --global user.name "${USER_NAME}"
