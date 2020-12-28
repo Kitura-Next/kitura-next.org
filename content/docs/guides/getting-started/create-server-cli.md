@@ -17,7 +17,7 @@ The Kitura command-line interface (CLI) allows you to quickly generate a Kitura 
 
 Install Kitura’s Homebrew tap to allow ‘brew’ to access Kitura’s package repository:
 ```
-brew tap ibm-swift/kitura
+brew tap Kitura-Next/kitura
 ```
 
 Install Kitura’s command-line interface:
