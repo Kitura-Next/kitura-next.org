@@ -4,7 +4,7 @@ title: Privacy Policy
 
 ## Types of information we may collect from you
 
-Kitura.io does not collect any personal information from its users. 
+Kitura-next.org does not collect any personal information from its users. 
 
 ## Information our website automatically collects about you
 
@@ -27,4 +27,6 @@ Our site may, from time to time, contain links to and from third party websites.
 that we do not accept any responsibility or liability for these policies. Please check these policies before you submit any personal data to these websites.
 
 ## Changes to our privacy policy
-Any changes we may make to our privacy policy in the future will be posted on this page. Please check back frequently to see any updates or changes to our privacy policy.
+Any changes we may make to our privacy policy in the future will be posted on this page. Please check back frequently to see any updates or changes to our privacy policy.  
+
+*Last updated: January 30, 2021*
