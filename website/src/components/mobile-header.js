@@ -12,7 +12,7 @@ const MobileHeader = () => {
       <div className={styles.logoSection}>
           <Link className={styles.homeLink} to="/">
               <img className={styles.headerImage} src={kituraLogo} alt="Kitura Logo"></img>
-              <h1>KITURA</h1> 
+              <h1>KITURA⚡︎NexT</h1> 
           </Link>
       </div>
       <Search />

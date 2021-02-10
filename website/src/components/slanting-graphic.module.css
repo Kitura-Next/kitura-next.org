@@ -1,6 +1,6 @@
 .main-parent-container {
   height: 300px;
-  opacity: 0.6;
+  opacity: 0.9;
 }
 
 .main-top-graphic {
@@ -19,7 +19,7 @@
 
 .left-parent-container {
   height: 150px;
-  opacity: 0.6;
+  opacity: 0.9;
 }
 
 .left-top-graphic {
@@ -38,7 +38,7 @@
 
 .right-parent-container {
   height: 150px;
-  opacity: 0.6;
+  opacity: 0.9;
 }
 
 .right-top-graphic {
