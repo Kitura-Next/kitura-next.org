@@ -10,7 +10,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        icon: `src/images/Kitura.svg`
+        icon: `src/images/Kitura_logo_orange.svg`
       },
     },
     {

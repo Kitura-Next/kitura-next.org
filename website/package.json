@@ -1,8 +1,8 @@
 {
-  "name": "kitura.io",
-  "description": "A website for Kitura, a server side Swift web framework",
+  "name": "kituranext.org",
+  "description": "A website for Kitura-NexT, a server side Swift web framework",
   "version": "1.0.0",
-  "author": "David Dunn <dd4dev@gmail.com>",
+  "author": "Kitura-Next <info@kituranext.org>",
   "dependencies": {
     "gatsby": "^2.13.52",
     "gatsby-plugin-manifest": "^2.2.23",

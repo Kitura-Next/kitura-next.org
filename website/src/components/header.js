@@ -5,7 +5,7 @@ import styles from "./header.module.css";
 
 import Search from "./search";
 
-import kituraLogo from "../images/Kitura.svg";
+import kituraLogo from "../images/Kitura_logo_orange.svg";
 import slackIcon from "../../../content/images/header_slack_icon.svg";
 import githubIcon from "../../../content/images/header_github_icon.svg";
 
